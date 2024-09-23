@@ -1,0 +1,133 @@
+{
+  "request": {
+    "requestType": 1,
+    "requestDetail": {
+      "requestor": {
+        "requestorType": "1",
+        "urlFile": "",
+        "npwp": "320187908001000",
+        "nib": "138908679716",
+        "requestorName": "PT. SJ THREE INDONESIA",
+        "requestorAddress": "JAKARTA PUSAT"
+      },
+      "shippingLine": {
+        "shippingType": "PIL",
+        "doExpired": "2019-10-12",
+        "vesselName": "NAVIOS DELIGHT",
+        "voyageNumber": "0KRH3W"
+      },
+      "payment": "2",
+      "document": {
+        "ladingBillNumber": "HLCUEUR2009CHAW4",
+        "ladingBillDate": "2019-10-12",
+        "ladingBillType": "1",
+        "urlFile": "assets/upload/billing/HLCUE.pdf"
+      }
+    },
+    "parties": {
+      "shipper": {
+        "npwp": "12355613459876",
+        "name": "PT SHIPPER"
+      },
+      "consignee": {
+        "npwp": "12355613451234",
+        "name": "PT CONSIGNEE"
+      },
+      "notifyParty": {
+        "npwp": "12312312312321",
+        "name": "PT NOTIFY"
+      }
+    },
+    "cargoDetail": {
+      "nonContainer": [
+        {
+          "nonContainerSeq": 1,
+          "goodsDescription": "PARTS FOR GEAR UNITS",
+          "packageQuantity": {
+            "amount": 88,
+            "unit": "UNIT"
+          },
+          "grossWeight": {
+            "amount": 8890.0,
+            "unit": "KGM"
+          },
+          "measurementVolume": {
+            "amount": 71.0,
+            "unit": "M3"
+          }
+        },
+        {
+          "nonContainerSeq": 2,
+          "goodsDescription": "PARTS FOR BICYLE UNITS",
+          "packageQuantity": {
+            "amount": 98,
+            "unit": "UNIT"
+          },
+          "grossWeight": {
+            "amount": 8890.0,
+            "unit": "KGM"
+          },
+          "measurementVolume": {
+            "amount": 72.0,
+            "unit": "M3"
+          }
+        }
+      ]
+    },
+    "location": {
+      "locationType": [
+        {
+          "location": "0",
+          "countryCode": "AG",
+          "portCode": "AGBBQ"
+        },
+        {
+          "location": "1",
+          "countryCode": "ID",
+          "portCode": "IDAEG"
+        },
+        {
+          "location": "2",
+          "countryCode": "ID",
+          "portCode": "IDAKE"
+        }
+      ]
+    },
+    "paymentDetail": {
+      "invoice": [
+        {
+          "invoiceNo": "INV1232021",
+          "invoiceDate": "2019-10-11",
+          "totalAmount": 100000000.0,
+          "bankId": "002",
+          "accountNo": "80123123123123",
+          "urlFile": "assets/upload/payment/15712185291.pdf"
+        },
+        {
+          "invoiceNo": "INV9872021",
+          "invoiceDate": "2019-11-12",
+          "totalAmount": 900000000.0,
+          "bankId": "002",
+          "accountNo": "80123123123123",
+          "urlFile": "assets/upload/payment/inv.pdf"
+        }
+      ]
+    },
+    "supportingDocument": {
+      "documentType": [
+        {
+          "document": 1,
+          "documentNo": "NONCON012019",
+          "documentDate": "2019-11-21",
+          "urlFile": "assets/upload/document/nonCo1.pdf"
+        },
+        {
+          "document": 2,
+          "documentNo": "NONCON022019",
+          "documentDate": "2019-10-10",
+          "urlFile": "assets/upload/document/nonCo2.pdf"
+        }
+      ]
+    }
+  }
+}
