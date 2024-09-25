@@ -201,7 +201,7 @@ export const ActionDORequest = ({ doRequest }: { doRequest: ListDo }) => {
                 </Link>
             )}
 
-            {["Draft", "Rejected"].includes(doRequest.status) &&
+            {["Draft", "Rejected", "Cancelled"].includes(doRequest.status) &&
               context.userInfo?.roleId == 1 && (
                 <DropdownMenuItem
                 className="flex items-center cursor-pointer w-full hover:outline-none hover:bg-slate-100 px-2 rounded-sm"
